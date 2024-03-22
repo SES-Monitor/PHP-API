@@ -1,0 +1,21 @@
+{
+    "name": "sesmonitor/phpapi",
+    "description": "PHP classes for interacting with SESMonitor.com API",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "SESMonitor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SES Monitor",
+            "email": "support@sesmonitor.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
